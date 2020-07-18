@@ -10,7 +10,7 @@ async function download(resources, options) {
     // assign ids to resources 
     resources.forEach((resource) => {
         if(!resource.id) resource.id = utils.generateID('resource');
-        if(resource.origin.indexOf('/') === -1) resource.origin = './'+resource.origin;
+        if(resource.destination.indexOf('/') === -1) resource.destination = './'+resource.destination;
     });
 
     if(options && options.logging) {
