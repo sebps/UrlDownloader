@@ -1,6 +1,6 @@
 {
   "name": "url-downloader",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "npm package to download resources from url to targets such as LOCAL SYSTEM - AWS S3 - MICROSOFT AZURE STORAGE - GOOGLE CLOUD STORAGE",
   "main": "index.js",
   "keywords": "download, resource-download, url-download, url, migrate, downloader",
@@ -11,6 +11,7 @@
   "license": "ISC",
   "homepage": "https://github.com/sebpsdev/UrlDownloader",
   "dependencies": {
+    "node-fetch": "^2.6.0",
     "tmp": "^0.1.0"
   },
   "devDependencies": {
