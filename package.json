@@ -1,15 +1,15 @@
 {
   "name": "url-downloader",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "npm package to download resources from url to targets such as LOCAL SYSTEM - AWS S3 - MICROSOFT AZURE STORAGE - GOOGLE CLOUD STORAGE",
   "main": "index.js",
   "keywords": "download, resource-download, url-download, url, migrate, downloader",
   "scripts": {
     "test": "npm install && mocha"
   },
-  "author": "sebpsdev",
+  "author": "sebps",
   "license": "ISC",
-  "homepage": "https://github.com/sebpsdev/UrlDownloader",
+  "homepage": "https://github.com/sebps/url-downloader",
   "dependencies": {
     "node-fetch": "^2.6.0",
     "tmp": "^0.1.0"
